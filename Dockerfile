@@ -1,9 +1,9 @@
 FROM alpine:3.6
 
 ENV GLIBC_VERSION=2.26-r0 \
-    BITCOIN_VERSION=0.16.1 \
-    BITCOIN_URL=https://download.bitcoinabc.org/0.16.1/linux/bitcoin-abc-0.16.1-x86_64-linux-gnu.tar.gz \
-    BITCOIN_SHA256=aa561770a850a8cdc1872eabc67502e5533e8ad16bafc20ea14700811426d538 \
+    BITCOIN_VERSION=0.16.2 \
+    BITCOIN_URL=https://download.bitcoinabc.org/0.16.2/linux/bitcoin-abc-0.16.2-x86_64-linux-gnu.tar.gz \
+    BITCOIN_SHA256=5eeadea9c23069e08d18e0743f4a86a9774db7574197440c6d795fad5cad2084 \
     BITCOIN_DATA=/data
 
 RUN set -ex \
